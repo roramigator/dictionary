@@ -1,0 +1,30 @@
+{
+  "name": "",
+  "version": "1.0.0",
+  "description": "dictionary ui",
+  "main": "",
+  "scripts": {
+    "start": "webpack-dev-server --no-info --mode=development",
+    "build": "webpack --mode=production"
+  },
+  "keywords": [],
+  "author": "@roramigator",
+  "license": "MIT",
+  "dependencies": {
+    "node-sass": "^4.14.1",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.8.7",
+    "@babel/preset-env": "^7.8.7",
+    "@babel/preset-react": "^7.8.3",
+    "babel-loader": "^8.0.6",
+    "css-loader": "^4.3.0",
+    "style-loader": "^1.2.1",
+    "sass-loader": "^10.0.2",
+    "webpack": "^4.42.0",
+    "webpack-cli": "^3.3.11",
+    "webpack-dev-server": "^3.10.3"
+  }
+}
