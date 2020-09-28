@@ -4,7 +4,7 @@
   "description": "dictionary ui",
   "main": "",
   "scripts": {
-    "start": "webpack-dev-server --no-info --mode=development",
+    "start": "webpack-dev-server --mode=development",
     "build": "webpack --mode=production",
     "proxy": "node backend.js"
   },
