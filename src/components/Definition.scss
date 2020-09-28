@@ -1,0 +1,65 @@
+.definition {
+  margin: 20px auto;
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  border: 1px solid black;
+  border-radius: 10px;
+
+  .word {
+    display: flex;
+
+    .bx-headphone {
+      font-size: 25px;
+      margin: auto 10px;
+      background-color: darken(white, 10%);
+      border-radius: 5px;
+      padding: 5px;
+      cursor: pointer;
+    }
+    .about {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: flex-start;
+
+      .it {
+        font-size: 45px;
+        font-weight: bold;
+        word-break: break-all;
+      }
+      .wr {
+        font-size: 10px;
+        color: darken(white, 30%);
+        margin-bottom: 10px;
+      }
+    }
+  }
+  .meanings {
+    margin-left: 10px;
+    .partOfSpeech {
+      margin: 0 10px 10px 0;
+      border: 1px dashed black;
+      border-radius: 10px;
+      padding: 10px;
+      .defNumber {
+        font-size: 30px;
+        font-weight: bold;
+      }
+      .example {
+        font-size: 10px;
+      }
+      .synonyms {
+        .synonym {
+          display: inline-block;
+          font-size: 10px;
+          padding: 2px 10px;
+          margin: 0 5px;
+          background-color: darken(white, 5%);
+          border: 1px dotted darken(white, 18%);
+          color: grey;
+        }
+      }
+    }
+  }
+}
