@@ -1,0 +1,29 @@
+.word {
+  display: flex;
+
+  .bx-headphone {
+    font-size: 25px;
+    margin: auto 10px;
+    background-color: darken(white, 10%);
+    border-radius: 5px;
+    padding: 5px;
+    cursor: pointer;
+  }
+  .about {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+
+    .it {
+      font-size: 45px;
+      font-weight: bold;
+      word-break: break-all;
+    }
+    .wr {
+      font-size: 10px;
+      color: darken(white, 30%);
+      margin-bottom: 10px;
+    }
+  }
+}
